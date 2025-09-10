@@ -1,0 +1,19 @@
+name: color-game
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - matplotlib
+  - ipywidgets
+  - ipython
+  - scipy
+  - scikit-learn
+  - voila
+  - jupyterlab
+  - notebook
+  - widgetsnbextension
+  - pip
+  - pip:
+      - pyDOE
